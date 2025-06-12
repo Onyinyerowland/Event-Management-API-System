@@ -45,7 +45,6 @@ def test_delete_event():
     assert response.json()["id"] == event_id
 
 
-
 def test_close_event():
     event = create_event()
     event_id = event["id"]

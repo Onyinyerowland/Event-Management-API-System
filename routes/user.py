@@ -8,7 +8,6 @@ def create_user(user: UserCreate):
     return user_service.create_user(user)
 
 
-
 @router.get("/", response_model=list[User])
 def list_users():
     return user_service.list_users()

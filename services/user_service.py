@@ -29,10 +29,8 @@ def delete_user(user_id: int) -> bool:
     return len(users) < original_len
 
 
-
 def list_users() -> list[User]:
     return users
-
 
 
 def deactivate_user(user_id: int) -> Optional[User]:

@@ -34,7 +34,6 @@ def delete_event(event_id: int) -> Optional[Event]:
     return None
 
 
-
 def list_events() -> list[Event]:
     return events
 
