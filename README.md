@@ -1,6 +1,6 @@
 ## Event-Management-API-System
 
-FastAPI app helps manage evens from registration for events, usesrs, tracking attendance, and manage both event information and speaker details. It supports CRUD operations and enforces simple validation and relationships between the entities
+FastAPI app helps manage evens from registration for events, users, tracking attendance, and manage both event information and speaker details. It supports CRUD operations and enforces simple validation and relationships between the entities
 
 
 ##  Features
